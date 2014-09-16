@@ -274,7 +274,7 @@
 							$this.setTimeout();
 						}else{
 							$this.clearTimeout();
-							/* $this.hideBars() */;
+							/* $this.hideBars() ; */
 						}
 
 								}
