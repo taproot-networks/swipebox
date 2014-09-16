@@ -274,7 +274,7 @@
 							$this.setTimeout();
 						}else{
 							$this.clearTimeout();
-							$this.hideBars();
+							/* $this.hideBars() */;
 						}
 
 								}
@@ -291,7 +291,7 @@
 					var $this = this;
 					$this.clearTimeout();
 					$this.timeout = window.setTimeout( function(){
-						$this.hideBars() },
+						/* $this.hideBars() */ },
 						plugin.settings.hideBarsDelay
 					);
 				}
